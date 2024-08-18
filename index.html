@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+
+    <!-- Google Font cnd -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind cnd -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                sans: ['Manrope', 'sans-serif'],
+              },
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+
+    <!-- Fontwesome cnd -->
+    <script src="https://kit.fontawesome.com/0b7094b591.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="flex justify-between">
+        <!-- text -->
+        <div class="mt-[70px] ml-[230px]">
+            <h1 class="font-sans text-7xl font-extrabold leading-[100px] mb-4">It's good <br> tea time at The <br> Tea House</h1>
+            <p class="text-gray-500 w-3/4 mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, maiores?</p>
+            <button class="bg-gradient-to-r from-orange-500 to-red-500 rounded-lg px-[20px] py-[18px] text-white font-bold">Explore More <i class="fa-solid fa-arrow-right -rotate-45" ></i></button>
+        </div>
+        <!-- image -->
+        <div class="mt-[120px] mr-[75px] relative">
+            <!-- image -->
+            <div>
+                <img src="./images/banner.png" alt="tea bottle">
+            </div>
+            <!-- card -->
+            <div class="absolute gap-[13px] flex items-center bg-white rounded-lg shadow-md px-[25px] py-[20px] w-[260px] bottom-[10px] left-[80px]">
+                <!-- icon -->
+                <div>
+                  <i class="fa-solid fa-star text-[#FFF082] text-5xl"></i>
+                </div>
+                <!-- text contant -->
+                <div>
+                  <h2 class="text-3xl font-extrabold mb-2">5.00</h2>
+                  <p class="text-[#777777] text-base font-semibold">Trust Pilot Ratings</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
